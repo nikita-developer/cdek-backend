@@ -125,7 +125,7 @@
                     <td style="vertical-align: middle;">
                         <span
                             style="font-size: 16px; line-height: 20px; font-family: 'Helvetica', Arial, sans-serif; font-weight: 400; text-decoration: none; color: #000000;">
-                            Тип договора:
+                            Дополнительная информация
                         </span>
                     </td>
                     <td style="vertical-align: middle;">
