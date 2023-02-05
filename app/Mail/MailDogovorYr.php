@@ -6,7 +6,7 @@ use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 
-class MailDogovorIp extends Mailable
+class MailDogovorYr extends Mailable
 {
     use Queueable, SerializesModels;
 
@@ -29,6 +29,6 @@ class MailDogovorIp extends Mailable
      */
     public function build()
     {
-        return $this->subject('ИП от' . $this->mailData['fio'])->view('emails.dogovor-ip');
+        return $this->subject('ООО от' . $this->mailData['fio'])->view('emails.dogovor-yr');
     }
 }

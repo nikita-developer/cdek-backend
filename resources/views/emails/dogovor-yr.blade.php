@@ -38,7 +38,7 @@
                     <tr>
                         <td style="vertical-align: middle;">
                             <span style="font-size: 16px; line-height: 20px; font-family: 'Helvetica', Arial, sans-serif; font-weight: 400; text-decoration: none; color: #000000;">
-                                ФИО (индивидуального предпринимателя):
+                                Наименование:
                             </span>
                         </td>
                         <td style="vertical-align: middle;">
@@ -63,24 +63,36 @@
                     <tr>
                         <td style="vertical-align: middle;">
                             <span style="font-size: 16px; line-height: 20px; font-family: 'Helvetica', Arial, sans-serif; font-weight: 400; text-decoration: none; color: #000000;">
-                                Юридический адрес:
-                            </span>
-                        </td>
-                        <td style="vertical-align: middle;">
-                            <span style="font-size: 16px; line-height: 20px; font-family: 'Helvetica', Arial, sans-serif; font-weight: 400; text-decoration: none; color: #000000;">
-                                {{$mailData['yradress']}}
-                            </span>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="vertical-align: middle;">
-                            <span style="font-size: 16px; line-height: 20px; font-family: 'Helvetica', Arial, sans-serif; font-weight: 400; text-decoration: none; color: #000000;">
                                 Фактический адрес:
                             </span>
                         </td>
                         <td style="vertical-align: middle;">
                             <span style="font-size: 16px; line-height: 20px; font-family: 'Helvetica', Arial, sans-serif; font-weight: 400; text-decoration: none; color: #000000;">
                                 {{$mailData['adress']}}
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align: middle;">
+                            <span style="font-size: 16px; line-height: 20px; font-family: 'Helvetica', Arial, sans-serif; font-weight: 400; text-decoration: none; color: #000000;">
+                                Номер свидетельства (не обязательно)
+                            </span>
+                        </td>
+                        <td style="vertical-align: middle;">
+                            <span style="font-size: 16px; line-height: 20px; font-family: 'Helvetica', Arial, sans-serif; font-weight: 400; text-decoration: none; color: #000000;">
+                                {{$mailData['numSvid']}}
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align: middle;">
+                            <span style="font-size: 16px; line-height: 20px; font-family: 'Helvetica', Arial, sans-serif; font-weight: 400; text-decoration: none; color: #000000;">
+                                Дата выдачи свидетельства (не обязательно)
+                            </span>
+                        </td>
+                        <td style="vertical-align: middle;">
+                            <span style="font-size: 16px; line-height: 20px; font-family: 'Helvetica', Arial, sans-serif; font-weight: 400; text-decoration: none; color: #000000;">
+                                {{$mailData['dateSvid']}}
                             </span>
                         </td>
                     </tr>

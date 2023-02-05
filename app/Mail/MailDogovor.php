@@ -29,6 +29,6 @@ class MailDogovor extends Mailable
      */
     public function build()
     {
-        return $this->subject('Данные от' . $this->mailData['organization'])->view('emails.dogovor');
+        return $this->subject('Самозанятый от' . $this->mailData['fio'])->view('emails.dogovor-employed');
     }
 }
